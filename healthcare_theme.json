@@ -1,0 +1,182 @@
+{
+  "name": "Healthcare Intelligence Theme",
+  "dataColors": [
+    "#0A6EBD",
+    "#1D9E75",
+    "#F4A623",
+    "#E84855",
+    "#7B61FF",
+    "#00B4D8",
+    "#06D6A0",
+    "#FFB703",
+    "#FB8500",
+    "#3A86FF"
+  ],
+  "background": "#F8FAFB",
+  "foreground": "#1A1A2E",
+  "tableAccent": "#0A6EBD",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#1A1A2E" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": 28,
+          "fontFamily": "Segoe UI",
+          "isBold": true,
+          "color": { "solid": { "color": "#0A6EBD" } }
+        }],
+        "label": [{
+          "fontSize": 11,
+          "color": { "solid": { "color": "#6B7280" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#0A6EBD" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }],
+        "gridlines": [{
+          "color": { "solid": { "color": "#F3F4F6" } }
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1D9E75" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#0A6EBD" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "header": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "backColor": { "solid": { "color": "#0A6EBD" } },
+          "fontSize": 11,
+          "isBold": true
+        }],
+        "rows": [{
+          "fontColor": { "solid": { "color": "#1A1A2E" } },
+          "backColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 11
+        }],
+        "grid": [{
+          "gridColor": { "solid": { "color": "#F3F4F6" } }
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#E5E7EB" } },
+          "radius": 8
+        }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#1A1A2E" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#F8FAFB" } },
+          "transparency": 0
+        }],
+        "outspace": [{
+          "color": { "solid": { "color": "#E5E7EB" } }
+        }]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI",
+      "color": "#0A6EBD"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI",
+      "color": "#1A1A2E"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#1A1A2E"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#6B7280"
+    }
+  }
+}
